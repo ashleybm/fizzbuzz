@@ -17,7 +17,7 @@ int main() {
 			cout << "fizz";
 		else if (i % 5 == 0)
 			cout << "buzz";
-		else
+		else if (i % 5 == 0 && i % 3 == 0)
 			cout << i;
 	}
 
